@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>toy.domain</RootNamespace>
+    <AssemblyName>toy.domain</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\toy-infra\toy-infra.csproj" />
+  </ItemGroup>
+
+</Project>
